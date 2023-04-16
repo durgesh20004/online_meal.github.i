@@ -1,0 +1,88 @@
+/* Navigation bar */
+
+#navbar {
+    flex-direction: column;
+}
+
+#navbar ul li {
+    font-size: 1rem;
+}
+
+
+/* home section  */
+
+#home {
+    flex-direction: column;
+
+    height: 220px;
+    width: 100%;
+
+
+}
+
+#home::before {
+    height: 400px;
+
+}
+
+#home p {
+    font-size: 10px;
+}
+
+
+/* service section  */
+#services {
+    flex-direction: column;
+}
+
+#service-container h1 {
+    margin-top: 98px;
+
+
+}
+
+/* clients section  */
+#client {
+    overflow: hidden;
+}
+
+#clt {
+    flex-wrap: wrap;
+
+}
+
+#clt img {
+    width: 70px;
+height: auto;
+
+}
+
+
+/* member section  */
+
+#member-section form{
+    width: 80%;
+}
+.member button{
+    position: relative;
+    margin: 5px auto;
+}
+
+
+
+/* join us section  */
+.icons {
+    flex-wrap: wrap;
+}
+.icons a{
+    width: 60px;
+}
+
+/* utility classes */
+.h-primary {
+    font-size: 24px;
+}
+
+.btn {
+    font-size: 1rem;
+}
